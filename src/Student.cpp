@@ -11,6 +11,7 @@ Student* Student::getInstance(){
 
 string Student::add(string name){
     studentList.push_back(name);
+    return name;
 }
 
 string Student::remove(string name){
@@ -20,9 +21,10 @@ string Student::remove(string name){
             return name;
         }
     }
+    return "NONE";
 }
 
-string Student::display(string){
+void Student::display(){
     for(int i=0; i<studentList.size(); i++){
         cout << studentList[i] << endl;
     }
@@ -33,3 +35,15 @@ Student::~Student(){
 }
 
 Student* Student::obj = nullptr;
+
+// int main(){
+//     Student* s = Student::getInstance();
+
+//     s->add("antor");
+//     s->display();
+//     s->add("prothom");
+//     s->add("antor");
+//     s->display();
+//     cout << "remove " << s->remove("antor") << endl;
+//     s->display();
+// }

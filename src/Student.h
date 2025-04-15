@@ -11,6 +11,6 @@ public:
     static Student* getInstance();
     string add(string);
     string remove(string);
-    string display(string);
+    void display();
     ~Student();
 };
