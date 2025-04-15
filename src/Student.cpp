@@ -18,7 +18,9 @@ string Student::remove(string name){
 }
 
 string Student::display(string){
-
+    for(int i=0; i<studentList.size(); i++){
+        cout << studentList[i] << endl;
+    }
 }
 
 Student::~Student(){
