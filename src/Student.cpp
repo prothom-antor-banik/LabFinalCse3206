@@ -14,7 +14,12 @@ string Student::add(string name){
 }
 
 string Student::remove(string name){
-
+    for(int i=0; i<studentList.size(); i++){
+        if(studentList[i] == name){
+            studentList.erase(studentList.begin()+i);
+            return name;
+        }
+    }
 }
 
 string Student::display(string){
