@@ -6,8 +6,8 @@ using namespace std;
 class Student{
     static Student* obj;
     vector<string> studentList;
-public:
     Student();
+public:
     static Student* getInstance();
     string add(string);
     string remove(string);
