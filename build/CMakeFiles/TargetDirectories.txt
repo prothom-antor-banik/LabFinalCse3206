@@ -1,0 +1,3 @@
+/Users/prothomantorbanik/Desktop/Folder/code/LAB_32/CSE3206/LabFinal/build/CMakeFiles/GTestu.dir
+/Users/prothomantorbanik/Desktop/Folder/code/LAB_32/CSE3206/LabFinal/build/CMakeFiles/edit_cache.dir
+/Users/prothomantorbanik/Desktop/Folder/code/LAB_32/CSE3206/LabFinal/build/CMakeFiles/rebuild_cache.dir
